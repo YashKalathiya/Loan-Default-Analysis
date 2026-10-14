@@ -75,34 +75,6 @@ In the supplied data, `Default = 1` appears in approximately **11.61%** of rows.
 - **Microsoft Power BI Desktop** — report authoring and interactive visualization
 - **CSV** — raw data source
 
-## Getting Started
-
-1. Clone or download this repository.
-2. Open `Dashboard.pbix` in **Power BI Desktop**.
-3. If Power BI prompts that the source file cannot be found, update the data source path to the local `Loan_default.csv` file:
-   - In Power BI Desktop, select **Transform data** or open **Data source settings**.
-   - Locate the CSV source and point it to the downloaded file.
-   - Apply changes and refresh the report.
-4. Explore the three report pages and use the report's available visual interactions and filters.
-
-Menu names can vary slightly by Power BI Desktop version.
-
-## Repository Structure
-
-```text
-.
-├── Dashboard.pbix
-├── Loan_default.csv
-└── README.md
-```
-
-## Notes and Limitations
-
-- The report's results depend on the supplied dataset and the data types/transformations configured in the PBIX file.
-- Validate date parsing and numeric data types after changing the CSV source path.
-- The dashboard is intended for descriptive analysis and exploration; relationships shown in charts do not establish causation.
-- Avoid sharing borrower-level or otherwise sensitive data publicly. Confirm that you have permission to distribute the raw dataset before publishing this repository.
-
 ## Future Improvements
 
 - Add a screenshot or GIF preview of the dashboard.
