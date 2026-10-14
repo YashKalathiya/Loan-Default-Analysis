@@ -74,10 +74,3 @@ In the supplied data, `Default = 1` appears in approximately **11.61%** of rows.
 
 - **Microsoft Power BI Desktop** — report authoring and interactive visualization
 - **CSV** — raw data source
-
-## Future Improvements
-
-- Add a screenshot or GIF preview of the dashboard.
-- Document any Power Query cleaning steps and DAX measures used in the report.
-- Add a data dictionary with business definitions and calculation logic for key metrics.
-- Include a methodology section describing how age groups, credit-score bins, and default rates are calculated.
